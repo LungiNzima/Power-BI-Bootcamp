@@ -1,27 +1,32 @@
 Chocolatier Case Study
-Obtained excel spreadsheet containing employee information such as name, ID, qualification etc. I then used HR metrics to calculate headcount, average leave balance, average salary etc. I also analyzed the relation between salary and education qualification. Visual filters were used to see the highest and lowest earners amongst the employees in each job category. Lastly, a HR dashboard summarizes the information obtained from the data set. 
+
+I obtained excel spreadsheet containing employee data such as name, ID, qualification etc. I then used HR metrics to calculate headcount, average leave balance, average salary etc. I also analyzed the relation between salary and education qualification. Visual filters were used to see the highest and lowest earners amongst the employees in each job category. Lastly, a HR dashboard summarizes the information obtained from the data set. 
 
 Step 1: How many people are in each job? 
-
-
-
-
-
-
-
-
-
-
-
-
-HR Dashboard based on ChocolatierEmployeeProfile data set:
+Formula: Headcount = COUNTROWS(EmployeeProfiles) 
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/347386bd-74e5-4ab5-80e7-a8e7cd0b9c57" />
+Step 2: Gender break-down of the staff 
+Created a pie chart and selected the Headcount and Gender fields. A slicer was added to observe the distribution of gender by job category
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/31218306-1d51-4994-a846-d3a6d418ef25" />
+Step 3: Age spread of the staff 
+Transformed data, by adding a new group to the age column, then grouping the ages into bins of 5 values. A slicer was added to observe the age distribution by gender.
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/8ab9e1aa-b362-4daa-9495-bb450bf9c637" />
+Step 4: Which jobs pay more? ​
+Formula: Average Salary = AVERAGE(EmployeeProfiles[Salary]) ​
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/2dd51146-0891-4b82-a25d-da2b9cad31b8" />
+Step 5: Top earners in each job category 
+Transformed the salary column by adding $ sign in the beginning of the values. Filtered the table visual by "Top N" to show the employees who are paid the most/least by job title.
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/994850c7-d655-4dd5-b665-357532d3a848" />
+Step 6: Qualification vs. Salary 
+a) Created a qualification column index.​ b) Linked the field Employee Qualification in "Employee Table" with the Qualification field in "Education
+Qualification" table.​ c) Created the scatter plot. 
+​<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/c2383bc0-c7cc-46c4-8f49-f4272e378591" />
+Step 7: Staff growth trend over time 
+a) calculated Cumulative headcount. b) Created line chart by separating the data by Date of Join and not Date hierarchy <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/330fb3f3-b8f6-44ec-a3de-59c086f8eff4" />
+Step 8: Employee filter by starting letter ​
+Transformed data by adding a column and extracting the first character of the name column. ​Added a table with employee details and conditional formating of a data bar. <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/daadcd81-a13a-484f-9f26-4634d9986f8d" />
+Step 9: Leave balance analysis ​
+Calculated average leave​: Average Leave Balance = AVERAGE(EmployeeProfiles[Leave Balance])​ Also measured people who have greater than a months leave balance: ​Leave Balance greater than 20 days = CALCULATE([Headcount], EmployeeProfiles[Leave Balance] >20) <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/b73dfea2-9a1d-442f-817a-456125297e42" />
+Step 10: Created a dashboard based on the above findings:
 ![Untitled design](https://github.com/user-attachments/assets/ddba4193-a21f-476d-8271-e7f7075a2a4e)
-
-
-
-
- 
-
-
-
-Credit to the following creators: Chandoo on YT for Tutorial  
+Credit to the following creator: Chandoo on YT for Tutorial  
