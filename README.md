@@ -1,6 +1,6 @@
 Chocolatier Case Study
 
-I obtained excel spreadsheet containing employee data such as name, ID, qualification etc. I then used HR metrics to calculate headcount, average leave balance, average salary etc. I also analyzed the relation between salary and education qualification. Visual filters were used to see the highest and lowest earners amongst the employees in each job category. Lastly, a HR dashboard summarizes the information obtained from the data set. 
+I obtained excel spreadsheet containing employee data such as name, ID, qualification etc. I then used HR metrics to calculate headcount, average leave balance, average salary etc. I also analyzed the relationship between salary and education qualification. Visual filters were used to see the highest and lowest earners amongst the employees in each job category. Lastly, a HR dashboard summarizes the information obtained from the data set. 
 
 Step 1: How many people are in each job? 
 Formula: Headcount = COUNTROWS(EmployeeProfiles) 
