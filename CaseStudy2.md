@@ -80,6 +80,7 @@ Summary of findings:
   → Suggests that job satisfaction is uneven across roles, potentially driving attrition in certain categories.
 
 🧭 What This Dashboard Reveals
+
 • High attrition rate (16%) is a red flag, above typical benchmarks (often 10–12%).
 
 • Retention issues are concentrated in R&D and Sales, which are strategic functions.
