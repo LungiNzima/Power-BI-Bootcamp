@@ -1,6 +1,4 @@
-
-
-I obtained excel spreadsheet containing employee data such as name, ID, qualification etc. I then used HR metrics to calculate headcount, average leave balance, average salary etc. I also analyzed the relationship between salary and education qualification. Visual filters were used to see the highest and lowest earners amongst the employees in each job category. Lastly, a HR dashboard summarizes the information obtained from the data set. 
+This data set contains various employee data such as name, ID, qualification etc. HR metrics were used to calculate headcount, average leave balance, average salary etc. Analysis was also conducted between salary and education qualification. Visual filters were used to see the highest and lowest earners amongst the employees in each job category. A HR dashboard was then created, and valuable insights gained regarding employees. 
 
 Step 1: How many people are in each job? 
 Formula: Headcount = COUNTROWS(EmployeeProfiles) 
