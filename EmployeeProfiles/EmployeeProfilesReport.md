@@ -1,4 +1,4 @@
-This data set contains various employee data such as name, ID, qualification etc. HR metrics were used to calculate headcount, average leave balance, average salary etc. Analysis was also conducted between salary and education qualification. Visual filters were used to see the highest and lowest earners amongst the employees in each job category. A HR dashboard was then created, and valuable insights gained regarding employees. 
+The dataset comprised key employee information, including identifiers such as name and ID, as well as qualifications and other workforce attributes. HR metrics were applied to calculate indicators such as headcount, average leave balance, and average salary. Further analysis explored the relationship between salary and educational qualifications. Visual filters were used to identify the highest and lowest earners within each job category. Based on these analyses, an HR dashboard was developed, providing valuable insights into employee demographics, compensation, and workforce trends. 
 
 Step 1: How many people are in each job? 
 Formula: Headcount = COUNTROWS(EmployeeProfiles) 
