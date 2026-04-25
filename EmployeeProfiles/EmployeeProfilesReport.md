@@ -66,4 +66,4 @@ Data Insights:
 • Qualification-driven pay: clear link between education level and salary, which could influence recruitment and retention strategies.
 
 
-Credit to the following creator: YT Chandoo  
+ 
